@@ -1,0 +1,9 @@
+JAR NASIL ALINIR (en kolay: GitHub, bilgisayara kurulum yok)
+1) github.com'da ücretsiz hesap aç, yeni boş repo oluştur.
+2) Bu klasörün İÇİNDEKİ her şeyi (src, build.gradle, settings.gradle, .github ...) repoya yükle (Add file > Upload files).
+3) Repoda "Actions" sekmesi > "Build mod" > en son çalışmayı aç (ilk derleme ~3-5 dk).
+4) Sayfanın altındaki "Artifacts" bölümünden cafetablet-jar'ı indir, zipten çıkan cafetablet-1.0.0.jar dosyasını .minecraft/mods klasörüne at.
+
+KENDİ BİLGİSAYARINDA: JDK 17 + Gradle 8.1.1 kur, bu klasörde "gradle build" çalıştır.
+Jar: build/libs/cafetablet-1.0.0.jar
+Gerekli: Minecraft 1.20.1 + Forge 47.x. Oyunda tablet: Yaratıcı mod > Araçlar sekmesi.
